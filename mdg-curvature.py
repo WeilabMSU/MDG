@@ -13,7 +13,8 @@ parser.add_argument('--dataset_name', type=str, default='GSE45719')
 parser.add_argument('--kernel_type', type=str, default='exp')
 parser.add_argument('--fetures_path', type=str, default='features-CCP-UMAP')
 parser.add_argument('--ccp_dimension', type=int, default=300)
-parser.add_argument('--kappa', type=int, default=2)
+# kappa = 5 or 10 in our paper
+parser.add_argument('--kappa', type=int, default=5)
 args = parser.parse_args()
 
 dataset_name = args.dataset_name
