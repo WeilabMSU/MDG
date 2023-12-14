@@ -1,4 +1,4 @@
-# Machine-learning Analysis of Opioid Use Disorder Informed by MOR, DOR, KOR, NOR and ZOR-Based Interactome Networks
+# Multiscale differential geometry learning of networks with applications to single-cell RNA sequencing data
 
 ---
 This script is for the paper "Multiscale differential geometry learning of networks with applications to single-cell RNA sequencing data, Hongsong Feng, Sean Cottrell, Yuta Hozumi, and  Guo-Wei Wei".
@@ -21,7 +21,7 @@ git clone https://github.com/WeilabMSU/MDG.git
 ```
 
 
-Download and install the pretrained model under the downloaded OUD_PPI folder.
+Download and install the scRNA-seq data and CCP-UMAP features under the downloaded MDG folder.
 
 ```shell
 cd MDG
@@ -38,8 +38,14 @@ unzip scRNA-seq-data.zip
 cd MDG
 python mdg-curvature.py --dataset_name GSE45719 --kappa 5
 ```
-The generated features are saved in the folder "features-CCP-UMAP".
+The generated features are saved in the folder "features-CCP-UMAP/{dataset}_features".
 
+## Build MDG models and carry out five-fold cross-validations.
+
+```python
+cd MDG
+python MDG-classification.py --dataset_name GSE45719
+```
 
 ## Reference
 
