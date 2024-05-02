@@ -49,7 +49,7 @@ python MDG-classification.py --dataset_name GSE45719
 
 ## Reference
 
-1. Multiscale differential geometry learning of networks with applications to single-cell RNA sequencing data, Hongsong Feng, Sean Cottrell, Yuta Hozumi, and  Guo-Wei Wei in print (2023).
+1. Hongsong Feng, Sean Cottrell, Yuta Hozumi, and Guo-Wei Wei, "Multiscale differential geometry learning of networks with applications to single-cell RNA sequencing data" , Computers in Biology and Medicine, 171(2024): 108211.
 
 
 ## License
