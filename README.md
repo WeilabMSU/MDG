@@ -21,7 +21,7 @@ git clone https://github.com/WeilabMSU/MDG.git
 ```
 
 
-Download and install the scRNA-seq data and CCP-UMAP features under the downloaded MDG folder.
+Download the scRNA-seq data and CCP-UMAP features under the downloaded MDG folder.
 
 ```shell
 cd MDG
