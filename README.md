@@ -13,7 +13,7 @@ Python Dependencies
 - pandas (0.25.3)
 
 
-## Download the repository
+## Download the repository and scRNA-seq data
 Download the repository from Github
 ```shell
 # download repository by git
